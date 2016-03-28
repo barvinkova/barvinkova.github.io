@@ -25,14 +25,10 @@ div.container {
        }
 
 div.container p {
-	 margin-left: 50px;
-	 margin-right: 50px;
 	 line-height: 170%;
 }
 
 div.container li {
-	 margin-left: 55px;
-	 margin-right: 50px;
 	 line-height: 170%;
 }
 
@@ -40,8 +36,13 @@ div.container li:first-child {
 	margin-top: 10px;
 }
 
-/*div.bordered {
+div.bordered {
   border-bottom: 1px solid darkgrey;
   margin-left: 55px;
   margin-right: 50px;
-}*/
+}
+
+div.unbordered {
+  margin-left: 55px;
+  margin-right: 50px;
+}
