@@ -1,0 +1,46 @@
+img {
+    	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+    	width: 50%;
+	}
+
+h1 {
+	   text-align: center
+   }
+
+body {
+       background-color: lightgray;
+   }
+
+div.container {
+       background-color: white;
+       display: block;
+       padding-top: 25px;
+       padding-bottom: 50px;
+       margin-left: auto;
+       margin-right: auto;
+       width: 500px;
+       box-shadow: 0px 0px 2px 2px #888888;
+       }
+
+div.container p {
+	 margin-left: 50px;
+	 margin-right: 50px;
+	 line-height: 170%;
+}
+
+div.container li {
+	 margin-left: 55px;
+	 margin-right: 50px;
+	 line-height: 170%;
+}
+
+div.container li:first-child {
+	margin-top: 10px;
+}
+
+hr {
+	margin-left: 50px;
+	margin-right: 50px;
+}
