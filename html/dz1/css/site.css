@@ -46,3 +46,9 @@ div.unbordered {
   margin-left: 55px;
   margin-right: 50px;
 }
+
+.block span {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
