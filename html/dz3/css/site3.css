@@ -124,9 +124,11 @@ div.container {
    border-right: 1px solid #f6f6f6;
  }
 
- .submenu{
-	display: inline-block;
+.page-content {
+   position: absolute;
+	 display: inline-flex;
 }
+
 
  .submenu ul {
      list-style-type: none;
