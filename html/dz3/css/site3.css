@@ -124,6 +124,10 @@ div.container {
    border-right: 1px solid #f6f6f6;
  }
 
+ .submenu {
+	display: inline-block;
+}
+
  .submenu ul {
      list-style-type: none;
 		 font: 10pt Arial, Helvetica, sans-serif;
@@ -163,10 +167,9 @@ div.container {
 
 
 div.floating-box {
-    display: inline-block;
-    width: 700px;
-    height: auto;
-    margin: 30px 0px 0px 0px;
+		display: inline-block;
+		vertical-align: top;
+    margin: 30px 30px 30px 0px;
     border: 1px solid #bdbdbd;
 }
 
