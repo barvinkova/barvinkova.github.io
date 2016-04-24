@@ -132,28 +132,45 @@ div.container {
  	width: 1000px;
  	margin: auto;
  }
+
  #secwrapper {
  	/*background: url('images/bg.gif') fixed;
  	background-color: #f47771;*/
- 	padding-top: 20px;
+ 	padding-top: 10px;
  }
 
- article {
- 	margin-right: 40px;
+ article1 {
+ 	margin-right: 30px;
  	display: inline-block;
  	vertical-align: top;
- 	padding: 7px;
  	*display:inline;
      zoom:1;
 	font: 10pt Arial, Helvetica, sans-serif;
 	color: #656363;
  }
 
- img {
-	 border: 1px solid #bdbdbd;
-	 padding: 60px;
+ article2 {
+  margin-top: 12px;
+	margin-right: 0px;
+  width: 500px;
+	padding: 80px 80px 80px 80px;
+ 	display: inline-block;
+ 	vertical-align: top;
+ 	*display:inline;
+     zoom:1;
+	font: 10pt Arial, Helvetica, sans-serif;
+	color: #656363;
+ 	border: 1px solid #bdbdbd;
 }
 
+article3 {
+	width: 660px;
+	float: right;
+	margin-right: 100px;
+	font: 10pt Arial, Helvetica, sans-serif;
+	color: #656363;
+	line-height: 1.5em;
+}
   .submenu ul {
       list-style-type: none;
  		  font: 10pt Arial, Helvetica, sans-serif;
