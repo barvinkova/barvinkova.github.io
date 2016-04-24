@@ -11,22 +11,23 @@ body {
 	 }
 
 html {
-	min-height: 100%;
+	min-height: 100px;
 }
 
 body {
- min-height: 100vh;
+ min-height: 100px;
 }
 
 div.container {
  background-color: white;
  display: block;
- min-height: 100vh;
+ min-height: 100px;
  /*padding-top: 25px;*/
- padding: 15px 30px 30px 30px;
+ padding: 50px;
  margin-left: auto;
  margin-right: auto;
- width: 80%;
+ width: 950px;
+ height: 900px;
  box-shadow: 0px 0px 2px 2px #888888;
  }
 
@@ -120,15 +121,15 @@ div.container {
  #cssmenu > ul > li > a:hover {
    background: #080808;
    color: #ffffff;
+	 padding: 8px 19px;
 	 border-left: 1px solid #f6f6f6;
    border-right: 1px solid #f6f6f6;
  }
 
-.page-content {
-   position: absolute;
-	 display: inline-flex;
+.submenu {
+	float:left;
+	width: 240px;
 }
-
 
  .submenu ul {
      list-style-type: none;
@@ -169,12 +170,30 @@ div.container {
 
 
 div.floating-box {
-		display: inline-block;
-		vertical-align: top;
-    margin: 30px 30px 30px 0px;
-    border: 1px solid #bdbdbd;
+/
+	/*display: inline-block;
+	vertical-align: top;
+  margin: 30px 30px 30px 0px;*/
+  border: 1px solid #bdbdbd;
+	float: right;
+	width: 500px;
 }
 
 .after-box {
     border: 3px solid red;
+}
+
+/* For modern browsers */
+.page-content:before,
+.page-content:after {
+   content: "";
+   display: table;
+}
+.page-content:after {
+   clear: both;
+}
+
+/* для IE6-7 */
+.page-content {
+   zoom: 1;
 }
