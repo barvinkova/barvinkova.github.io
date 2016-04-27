@@ -27,14 +27,16 @@ var timer = new function() {
       timer = 0;
       // change button value to Start
       var startBtn = document.getElementById ("startBtn");
-      startBtn.value = "start";
+      startBtn.value = "Start";
+      startBtn.className = "btn btn-success";
     }
     else {
       // start timer
       timer = setInterval(IncreaseTimer, stepMillisec);
       // change start text to Pause
       var startBtn = document.getElementById ("startBtn");
-      startBtn.value = "pause";
+      startBtn.value = "Pause";
+      startBtn.className = "btn btn-warning";
     }
   };
   this.onClear = function() {
@@ -51,6 +53,7 @@ var timer = new function() {
     // set button to start
     var startBtn = document.getElementById ("startBtn");
     startBtn.value = "Start";
+    startBtn.className = "btn btn-success";
   };
 
   function IncreaseTimer() {
