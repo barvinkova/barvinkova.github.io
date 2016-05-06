@@ -7,22 +7,16 @@
 // при нажатии на кнопочку она должна становиться активной, другие должны скрываться, и должен выводится таб, соответствующий нашей активной кнопе
 
 $.fn.tabify = function() {
-    $this = $(this);
+  $this = $(this);
 
-    var buttons = [];
-    // create some function
-    var pusheen = function() {
-       buttons = $(".ui-tabs-anchor"); // result will be an array of found buttons or none O_O = document.getElementsByClassName
-    };
-    // bind some function to the buttons
-    $(buttons).each(function(){
+  // bind some function to the buttons
+  $(".ui-tabs-anchor").each(function(){
+    $(this).bind("click", function() {
+      alert("clicked"); // make function and use it instead of alert
+    })
+  });
 
-      this.bind("click", function() {
-      alert("clicked");
-      })
-    });
-
-    return $this;
+  return $this;
 }
 
 $( "#tabs" ).tabify();
