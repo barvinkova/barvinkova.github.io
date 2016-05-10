@@ -1,0 +1,30 @@
+fieldset {
+	display:block;
+	clear:both;
+	height:120px;
+	width: 548px;
+	background:white;
+}
+
+div {
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+table, th, td {
+ text-align: left;
+ border-spacing: 5px;
+ margin: 4px;
+}
+
+tr {
+	height: 28px;
+}
+
+.tooltip {
+	border: solid 2px auto;
+	border-radius: 4px;
+	box-shadow: 0 0 5px #aaa;
+	padding: 4px;
+	display: none;
+}

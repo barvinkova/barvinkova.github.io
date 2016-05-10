@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="UTF-8">
+    <title>Tips</title>
+		<link rel="stylesheet" type="text/css" href="css/site1.css">
+	</head>
+	<body>
+		<form id="myToolTip">
+			<fieldset>
+				<div>
+					<table>
+				  	<tr>
+		    			<td><label for="firstname">Firstname</label></td>
+							<td><input id="firstname" name="firstname" xtitle="Please provide your firstname."></td>
+							<td><span class="tooltip"></span></td>
+	  			 </tr>
+
+						<tr>
+					  	<td><label for="lastname">Lastname</label></td>
+							<td><input id="lastname" name="lastname" xtitle="Please provide also your lastname."></td>
+							<td><span class="tooltip"></span></td>
+						</tr>
+
+						<tr>
+							<td><label for="address">Address</label></td>
+							<td><input id="address" name="address" xtitle="Your home or work address."></td>
+							<td><span class="tooltip"></span></td>
+						</tr>
+					</table>
+	  		</div>
+			</fieldset>
+		</form>
+
+		<input id="helpBtn" type="button" value="Show Help">
+
+  </body>
+	<script src="js/jquery-1.12.3.min.js"></script>
+	<script src="js/7-8c.js"></script>
+</html>
