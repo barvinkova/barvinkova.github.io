@@ -9,10 +9,17 @@
 $.fn.tabify = function() {
   $this = $(this);
 
+  $(function(){
+
+
+
+
+  };
+
   // bind some function to the buttons
   $(".ui-tabs-anchor").each(function(){
     $(this).bind("click", function() {
-      alert("clicked"); // make function and use it instead of alert
+      makeMagic(); // make function and use it instead of alert
     })
   });
 
