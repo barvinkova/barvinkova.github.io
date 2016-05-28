@@ -1,0 +1,239 @@
+html {
+  min-height: 100px;
+}
+
+body {
+  background-color: #1090b0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+body {
+  min-height: 100px;
+}
+
+.page {
+  background-color: white;
+  display: block;
+  /*padding-top: 25px;*/
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 950px;
+  height: 900px;
+  box-shadow: 0px 0px 2px 2px #888888;
+}
+
+.cf {
+  content: " ";
+  display: block;
+  clear: both;
+  font-size: 0;
+  line-height: 0;
+}
+
+.header 
+
+
+.contacts {
+  display: inline-block;
+  padding: 15px;
+  float: right;
+}
+
+.logo{
+  padding: 15px;
+  float: left;
+}
+
+table, th, td {
+  display: inline-block;
+  border-collapse: collapse;
+  float: right; 
+  font: 10pt Tahoma, sans-serif;
+  color: #41a1b9;
+  line-height: 0.5em;
+}
+
+
+.langbar {
+  display: inline-block;
+  padding-left: 15px;
+} 
+
+.frontpic {
+  width: 950px;
+  padding: 0px;
+}
+
+ .menu {
+  height: 30px;
+  display: block;
+  /*border: 1px solid;
+  border-radius: 5px;*/
+  width: auto;
+  border-color: #080808;
+  margin: 0;
+  padding: 0;
+  }
+
+ .menu ul li > a {
+  outline: none;
+  display: block;
+  position: relative;
+  font: 10pt Tahoma, sans-serif;
+  color: #ffffff;
+  margin: 0;
+  padding: 8px 20px;
+  }
+
+ .menu {
+  background: #5A5959;
+  }
+
+
+ ul.menu {
+  display: block;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+ul li {
+
+  display: inline-block;
+  vertical-align: top;
+}
+
+ul a {
+  font: 10pt Tahoma, sans-serif;
+  color: #ffffff;
+  line-height: 20px;
+  display: block;
+}
+
+ul:after {
+  display: block;
+  content: ' ';
+  clear: both;
+  float: none;
+}
+
+ul.menu > li {
+  float: left;
+  position: relative;
+}
+
+ul.menu > li > a {
+  display: block;
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+ul.menu > li > a:hover {
+  background-color: black;
+}
+
+ul.submenu {
+  display: none;
+  position: absolute;
+  width: 950;
+  top: 20px;
+  left: 0;
+  border: 1px solid #303030;
+}
+
+ul.submenu > li {
+  display: block;
+}
+
+ul.submenu > li > a {
+  display: block;
+  padding: 10px;
+  color: white;
+  background-color: #303030;
+  text-decoration: none;
+}
+
+ul.submenu > li > a:hover {
+  text-decoration: underline;
+}
+
+ul.menu > li:hover > ul.submenu {
+  display: block;
+} 
+
+.container{
+
+display: block;
+/*padding-top: 25px;*/
+margin-left: auto;
+margin-right: auto;
+}
+
+.fon1 {  /* фон для левой колонки (синий) */
+  width: 100%;
+  background: #edeef0;
+  float: left; /* делаем все обертки плавающими блоками чтобы избежать добавления блока с clear: both; */
+  position: relative; /* чтобы иметь возможность сместить фон */
+  right: 30%; /* обнажаем красный фон для центральной колонки. 30% - ширина центральной колонки */
+}
+
+.fon2 {/* фон для центральной колонки (красный) */
+  width: 100%;
+  background: #ffffff;
+  float: left;
+  position: relative;
+  right: 30%; /* обнажаем желтый фон для правой колонки. 40% - ширина правой колонки */
+}
+
+.fon3 {/* фон для правой колонки (желтый) */
+  width: 100%;
+  background: #edeef0;
+  float: left;
+}
+
+.leftColumn {
+  width: 30%;
+  float: left;
+  overflow: hidden; /* страховка от ломки верстки объектами шире размера колонки-родителя */
+  position:relative;
+  left: 65%; /* возвращаем колонки с контентом на свои позиции. 70% - сумма смещений оберток fon1 и fon2 */
+}
+
+.centerColumn {
+  width: 30%;
+  float: left;
+  overflow: hidden;
+  position:relative;
+  left: 70%;
+}
+
+.rightColumn {
+  width: 39%;
+  float: left;
+  overflow: hidden;
+  position:relative;
+  left: 70%;
+}
+
+p {
+  text-align: center;
+  font: 10pt Tahoma, sans-serif;
+  color: #424c43;
+}
+
+span {
+  text-align: center;
+  font: 10pt Tahoma, sans-serif;
+  color: #ffffff;
+}
+
+.footer
+
+.copyrights {
+  text-align: center;
+  font: 10pt Tahoma, sans-serif;
+  color: #ffffff;
+}
